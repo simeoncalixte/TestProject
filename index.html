@@ -1,95 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            padding: 0;
-            margin: 0;
-        }
-        nav{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            box-sizing: border-box;
-            align-items: center;
-        }
+    <link rel="stylesheet" href="index.css"/>
 
-        nav >  ul {
-            list-style: none;
-            gap: 50px;
-            flex-direction: row;
-            justify-content: flex-start;
-            flex-basis: 40%;
-            display: flex;
-        }
-
-        nav > img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100%;
-        }
-        /* nav img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100%;
-        }
-        nav ul {
-            display: flex;
-            justify-content: flex-start;
-            list-style: none;
-            gap: 10px;
-            color: black;
-            padding: 10px;
-        } */
-
-
-
-        /* nav ul li {
-            border: 1px solid wheat;
-            padding: 20px;
-            border-radius: 6px;
-        }
-
-        nav ul li a {
-            font-size: 24px;
-            color: black;
-            font-weight: 500;
-            text-decoration: none;
-        } */
-        main {
-            display: flex;
-            align-items: stretch;
-            gap: 20px;
-            background: purple;
-            width: 100%;
-            min-height: 75vh;
-            max-height: 75vh;
-        }
-
-        main > aside {
-            flex-basis: 15%;
-            background: white;
-            border-right: 1px solid aliceblue;
-            border-width: 0 10px 0 0;
-            border-style: solid;
-            border-color: #a2a2a21a;
-            overflow-y: scroll;
-            padding-left: 20px;
-        }
-
-        footer {
-            background: olive;
-            width: 100%;
-            min-height: 10vh;
-        }
-
-    </style>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -109,115 +29,99 @@
                 <a href="/hello.html"> Chat With Us</a>
             </li>
         </ul>
-        
-        <img src="https://static.toiimg.com/thumb/61981598.cms?width=680&height=512&imgsize=71366">
+
+        <img src="https://static.toiimg.com/thumb/61981598.cms?width=680&height=512&imgsize=71366" class="roundElement roundElementM roundElementL">
     </nav>
 
     <main>
         <aside>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            <button>
-                UserName
-            </button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        <button>
-            UserName
-        </button>
-        
+            <div class="userButtonSection">
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+                <button>
+                    UserName
+                </button>
+            </div>
+            <section class="approvalSection">
+                <button class="success">&#x2714;</button>
+                <button class="cancel">X</button>
+            </section>
         </aside>
         <section id="userInfo">
-            <h1>UserName</h1>
+            <h1 data-descr="collection of words and punctuation">Calixte Simeon</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/330px-Image_created_with_a_mobile_phone.png" 
+            class="roundElement roundElementM">
+
             <h5>User Profile</h5>
-            <h1>UserName</h1>
-            <h1>UserName</h1>
-            <h1>UserName</h1>
-            <h1>UserName</h1>
-            <h1>UserName</h1>
-            <h1>UserName</h1>
+            <section id="orders">
+                <h1>UserName</h1>
+                <h1>UserName</h1>
+                <h1>UserName</h1>
+                <h1>UserName</h1>
+                <h1>UserName</h1>
+                <h1>UserName</h1>
+            </section>
         </section>
     </main>
     <footer>
@@ -236,12 +140,13 @@
                 <ul>
                     <li>
                         <address></address>
-                        
+
                     </li>
                 </ul>
             </li>
         </ul>
 
-    </footer>    
+    </footer>
 </body>
+
 </html>

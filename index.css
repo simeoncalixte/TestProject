@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+nav>ul {
+    list-style: none;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 40%;
+    display: flex;
+}
+
+
+
+/* nav img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 10px;
+    color: black;
+    padding: 10px;
+} */
+
+
+
+/* nav ul li {
+    border: 1px solid wheat;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+} */
+main {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    background: purple;
+    width: 100%;
+    min-height: 75vh;
+    max-height: 75vh;
+}
+
+main>aside {
+    flex-basis: 15%;
+    background: white;
+    border-right: 1px solid aliceblue;
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: #a2a2a21a;
+    padding-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main > aside > .userButtonSection {
+    flex-basis: 99%;
+    overflow-y: scroll;
+}
+
+main > aside > .userButtonSection > button {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s ease-in;
+
+}
+
+main > aside > .userButtonSection > button:hover {
+    background: purple;
+}
+
+main > section > h1:hover::after {
+    content: attr(data-descr);
+    font-size: 100px;
+}
+
+footer {
+    background: olive;
+    width: 100%;
+    min-height: 10vh;
+}
+
+.approvalSection {
+    display:flex;
+    width: 100%;
+}
+
+.approvalSection > button {
+    width: 50%;
+    padding: 20px;
+}
+
+.approvalSection > .success {
+   background: green;
+}
+
+.approvalSection > .cancel {
+    background: gray;
+}
+
+
+.roundElement {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.roundElementM {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.roundElementL {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+.roundElementXL {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+
